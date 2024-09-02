@@ -1,4 +1,4 @@
-Here’s a streamlined guide for installing Jenkins on an Ubuntu system:
+Installing Jenkins on an Ubuntu system:
 
 ### Step 1: Install Java
 
@@ -65,4 +65,4 @@ Here’s a streamlined guide for installing Jenkins on an Ubuntu system:
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
    ```
 
-This should give you a complete setup for Jenkins on Ubuntu!
+A complete setup for Jenkins on Ubuntu!
