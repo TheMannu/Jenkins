@@ -1,5 +1,7 @@
 Here’s the guide for installing Jenkins on an Ubuntu system
 
+Reference Link - https://www.jenkins.io/doc/book/installing/linux/
+
 # Jenkins Installation Guide on Ubuntu
 
 ## Step 1: Install Java
@@ -10,13 +12,36 @@ Here’s the guide for installing Jenkins on an Ubuntu system
    ```
 
 2. **Install Java Development Kit (JDK):**
+   
+   - This will Insatll The `Java Development Kit` for developers to run Java Programs(java code)
    ```bash
-   sudo apt-get install openjdk-11-jdk-headless
+   sudo apt-get install openjdk-17-jdk-headless
    ```
+
+   ```bash
+   sudo apt-get install fontconfig openjdk-17-jdk
+   ```
+
+   - These will Install the `Java Runtime Environments` for running Java bassed Applications 
+
+   ```bash
+   sudo apt-get install openjdk-17-jre-headless
+   ```
+
+   ```bash
+   sudo apt install fontconfig openjdk-17-jre
+   ```
+
+   - For applicatinons Using GUI use `-fontconfig` command
+   - For applicatinons Not using GUI use `-headless` command 
 
 3. **Verify Java Installation:**
    ```bash
    java -version
+   ```
+
+   ```bash
+   javac -version
    ```
 
 ## Step 2: Add Jenkins Repository Key
