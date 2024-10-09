@@ -48,26 +48,29 @@ Reference Link - https://www.jenkins.io/doc/book/installing/linux/
 
 1. **Download and Add Jenkins Repository Key:**
    ```bash
-   curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+     https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
    ```
 
 ## Step 3: Add Jenkins Repository
 
 1. **Add Jenkins Repository to Sources List:**
    ```bash
-   echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+   echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+     https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+     /etc/apt/sources.list.d/jenkins.list > /dev/null
    ```
 
 ## Step 4: Install Jenkins
 
 1. **Update Package List:**
    ```bash
-   sudo apt update
+   sudo apt-get update
    ```
 
 2. **Install Jenkins:**
    ```bash
-   sudo apt install jenkins
+   sudo apt-get install jenkins
    ```
 
 ## Step 5: Verify Jenkins Installation
