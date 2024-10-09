@@ -15,7 +15,7 @@ Reference Link - https://www.jenkins.io/doc/book/installing/linux/
    
    - This will Insatll The `Java Development Kit` for developers to run Java Programs(java code)
    ```bash
-   sudo apt-get install openjdk-17-jdk-headless
+   sudo apt-get install openjdk-17-jdk-headless -y
    ```
 
    ```bash
