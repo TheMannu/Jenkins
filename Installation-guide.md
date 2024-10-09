@@ -70,7 +70,7 @@ Reference Link - https://www.jenkins.io/doc/book/installing/linux/
 
 2. **Install Jenkins:**
    ```bash
-   sudo apt-get install jenkins
+   sudo apt-get install jenkins -y
    ```
 
 ## Step 5: Verify Jenkins Installation
