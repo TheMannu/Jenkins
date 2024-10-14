@@ -94,3 +94,18 @@ Reference Link - https://www.jenkins.io/doc/book/installing/linux/
    ```bash
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
    ```
+
+   ---
+
+## Guide for installing Jenkins on Windows
+  
+- Refference Link -  Search onYour browsers
+```
+   jenkins.io/downloads/
+```
+
+- Select windows
+  - A Installer or .msi file will get downloaded 
+  - Click the installer and follow the instructions
+  - sele `Run service as LocalSystem(not recommended)
+  - Test the port 8080 (If any thing running on 8080 stop it for and then run test )
