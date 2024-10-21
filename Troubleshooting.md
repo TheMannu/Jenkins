@@ -36,3 +36,15 @@ Troubleshooting **day-to-day Jenkins issues**, Based on common problems like con
      - Some plugin upgrades might change their configuration behavior (e.g., adding/removing fields or deprecating options).
      - Always review release notes for each plugin to check for breaking changes.
      - Re-configure affected jobs after plugin updates to accommodate new options or resolve deprecations.
+
+
+### 5. **Long Queue in Jenkins Jobs**
+   - **Problem**: Jobs are queued and running in series rather than parallel, leading to long waiting times.
+   - **Solution**:
+     - Increase the number of **available agents** or configure new agents to handle more concurrent jobs.
+     - Optimize job performance by tuning the environment and resources available to each agent.
+     - Set job execution rules such as **concurrent builds** (if applicable) and avoid resource-intensive jobs on the same node.
+     - Utilize **pipeline parallelism** to break down tasks into parallel steps and reduce total build time.
+
+
+
