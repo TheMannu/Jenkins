@@ -55,3 +55,10 @@ Troubleshooting **day-to-day Jenkins issues**, Based on common problems like con
      - Check the **Jenkins environment variables** for conflicts or incorrect paths.
      - Test the connectivity and configurations by running a **simple test job** that interacts with the tool to confirm functionality.
 
+### 7. **Logs File Filling Up Disk Space**
+   - **Problem**: Log files grow too large, consuming disk space and causing memory issues during job execution.
+   - **Solution**:
+     - Enable **log rotation** to archive or delete old logs. Go to **Manage Jenkins** → **System Configuration** → **Log Rotation** to configure log retention policies.
+     - Monitor **disk space** and implement automated scripts to remove old or large log files.
+     - Use the **Disk Usage** plugin to track and manage the storage usage of Jenkins jobs.
+     - Ensure that there is sufficient memory and storage on the Jenkins master and agent nodes to handle job execution.
