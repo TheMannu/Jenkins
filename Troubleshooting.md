@@ -47,4 +47,11 @@ Troubleshooting **day-to-day Jenkins issues**, Based on common problems like con
      - Utilize **pipeline parallelism** to break down tasks into parallel steps and reduce total build time.
 
 
+### 6. **Tool Configuration Issues**
+   - **Problem**: Jenkins unable to connect to tools like Git, Maven, Docker, or other third-party integrations.
+   - **Solution**:
+     - Verify that Jenkins is using the correct **tool installation paths** in **Global Tool Configuration**.
+     - Ensure the **correct version** of tools like Git, Maven, or JDK is specified.
+     - Check the **Jenkins environment variables** for conflicts or incorrect paths.
+     - Test the connectivity and configurations by running a **simple test job** that interacts with the tool to confirm functionality.
 
