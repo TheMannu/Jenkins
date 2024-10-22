@@ -62,3 +62,13 @@ Troubleshooting **day-to-day Jenkins issues**, Based on common problems like con
      - Monitor **disk space** and implement automated scripts to remove old or large log files.
      - Use the **Disk Usage** plugin to track and manage the storage usage of Jenkins jobs.
      - Ensure that there is sufficient memory and storage on the Jenkins master and agent nodes to handle job execution.
+
+### 8. **Job Failures Due to Process Changes**
+   - **Problem**: Jobs failing after changes in processes or workflows (e.g., tool upgrades, environment changes).
+   - **Solution**:
+     - Review the **Jenkins job logs** to identify the point of failure. The root cause is often found in the stack trace or error messages.
+     - Check for **changes in dependencies** or configuration that may have caused the issue (e.g., updated tool versions).
+     - Revert the job to a **previous known working configuration** or restore it from backup using version control (Git).
+     - Ensure the process changes are **documented** and properly implemented across all related jobs or pipelines.
+
+---
