@@ -81,3 +81,6 @@ Troubleshooting **day-to-day Jenkins issues**, Based on common problems like con
 
 
 - **Thumb Rule 3: Update Jenkins & Plugins**: Keeping Jenkins core and plugins updated is crucial for security and stability. Use the **Manage Jenkins** → **Update Center** to check for new updates regularly.
+
+
+- **Thumb Rule 4: Monitor Resource Usage**: Keep an eye on **memory, CPU, and disk usage**. Running out of any of these resources can cause jobs to fail. Use monitoring tools like **Nagios**, **Prometheus**, or **Jenkins Monitoring Plugin** to keep track of system health.
