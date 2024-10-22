@@ -72,3 +72,7 @@ Troubleshooting **day-to-day Jenkins issues**, Based on common problems like con
      - Ensure the process changes are **documented** and properly implemented across all related jobs or pipelines.
 
 ---
+
+### General Best Practices for Jenkins Maintenance:
+
+- **Thumb Rule 1: Check Job Logs**: Whenever a job fails, thoroughly review the logs. Most issues related to builds, failures, or misconfigurations can be identified by analyzing the job logs.
