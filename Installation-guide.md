@@ -1,6 +1,6 @@
 ## Guide for Installing Jenkins on an Ubuntu system
 
-Reference Link - (https://www.jenkins.io/doc/book/installing/linux/)
+Reference Link - [Installing Jenkins on an Ubuntu](https://www.jenkins.io/doc/book/installing/linux/)
 
 # Jenkins Installation Guide on Ubuntu
 
