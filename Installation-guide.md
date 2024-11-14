@@ -99,7 +99,7 @@ Reference Link - https://www.jenkins.io/doc/book/installing/linux/
 
 ## Guide for installing Jenkins on Windows
   
-- Refference Link -  Search onYour browsers
+- Refference Link -  [installing Jenkins](https://www.jenkins.io/doc/book/installing/)
 ```
    jenkins.io/downloads/
 ```
