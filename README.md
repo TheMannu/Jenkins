@@ -9,13 +9,23 @@ Installing Jenkins on an Ubuntu system:
 
 2. **Install Java Development Kit (JDK):**
    ```bash
-   sudo apt-get install openjdk-11-jdk-headless
+   sudo apt-get install openjdk-17-jdk-headless
+   ```
+   ```bash
+   sudo apt-get install fontconfig openjdk-17-jre
    ```
 
 3. **Verify Java Installation:**
    ```bash
    java -version
    ```
+output 
+```
+openjdk version "17.0.8" 2023-07-18
+OpenJDK Runtime Environment (build 17.0.8+7-Debian-1deb12u1)
+OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)
+
+```
 
 ### Step 2: Add Jenkins Repository Key
 
